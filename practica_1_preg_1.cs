@@ -11,7 +11,7 @@ namespace upn_myproject
             Console.Write("Ingrese radio de circunferencia: ");
             radio = Convert.ToDouble(Console.ReadLine());
             longitudCircunferencia = 2 * Math.PI * radio;
-            Console.WriteLine("La longitud de circunferencia con radio "+ Convert.ToString(radio) +" es: " + Convert.ToString(longitudCircunferencia));
+            Console.WriteLine("La longitud de Circunferencia con radio "+ Convert.ToString(radio) +" es: " + Convert.ToString(longitudCircunferencia));
         }
     }
 }
